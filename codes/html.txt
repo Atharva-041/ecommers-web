@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-sacle=1.0">
+    <titel>Fashion Trends </titel>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+</head>
+<body>
+    
+   <div class="header">
+    
+    <div class="container" >
+    <div class="navbar">
+        <div class="logo">
+        <a href="index.html"><img src="Images/LogoMa.png" width="125px"></a>
+        </div>
+        <nav>
+            <ul id="MenuItems"> 
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Contact</a></li>
+                <li><a href="account.html">Account</a></li>
+            </ul>
+        </nav>
+        <a href="cart.html"><img src="Images/cart.png" width="30px" height="30px"></a>
+        <img src="Images/menu.png" class="menu-icon" onclick="menutoggle()">
+    </div>
+       <div class="row">
+         <div class="col-2">
+              <h1>Give Your Life<br>A New Style!</h1>
+             <p> Shopping is actually very similar to farming a field. You can't keep buying the same thing, you have to have a bit of variety.</p>
+             <a href="products.html" class="btn">Explore Now &#8594;</a>
+           </div>
+            <div class="col-2">
+               <img src="Images/4D05B817-A1FF-4C35-8817-64E6E67B4C0E-removebg-preview.png">
+           </div>
+       </div>
+    </div>
+</div>    
+ 
+<!-------- featured categories -------->
+    <div class="categories">
+        <div class="small-container">
+             <div class="row">
+          <div class="col-3">
+                <img src="Images/catageory-1.jpg" width="310" height="auto">
+          </div>
+          <div class="col-3">
+                <img src="Images/catageory-3.jpg" width="350" height="auto">
+          </div>
+          <div class="col-3">
+                <img src="Images/catageory-2.jpg" width="330" height="auto">
+          </div>
+          
+            </div>
+        </div>
+        
+    </div>
+<!-------- featured products -------->    
+    <div class="small-container">
+         <h2 class="title">Featured Products</h2>
+        <div class="row">
+          <div class="col-4">
+               <a href="Women%20Jeans%20Blue.html"><img src="Images/trousers1.jpg">
+              <h4>Women Jeans Blue</h4></a>
+              <div class="rating">
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star-o"></i>
+              </div>
+              <p>₹325.00</p>
+                            
+            </div>
+            <div class="col-4">
+               <a href="White%20T-Shirt%20Men.html"><img src="Images/tshirt2.jpg">
+              <h4>White T-Shirt Men</h4></a>
+              <div class="rating">
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star-o"></i>
+              </div>
+              <p>₹325.00</p>
+                            
+            </div>
+            <div class="col-4">
+               <a href="Product-details.html"><img src="Images/tshirt1.jpg">
+              <h4>White T-Shirt Women</h4></a>
+              <div class="rating">
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star-o"></i>
+              </div>
+              <p>₹325.00</p>
+                            
+            </div>
+            <div class="col-4">
+               <a href="Daniel%20Klein%20Watch%20Men.html"><img src="Images/watch4.jpg">
+              <h4>Daniel Klein Watch Men</h4></a>
+              <div class="rating">
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star-o"></i>
+              </div>
+              <p>₹325.00</p>
+                            
+            </div>
+            
+        </div>
+         <h2 class="title">Latest Products</h2>
+        <div class="row">
+          <div class="col-4">
+               <a href="Women%20Trousers%20Pink.html"><img src="Images/trousers2.jpg">
+              <h4>Women Trousers Pink</h4></a>
+              <div class="rating">
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star-o"></i>
+              </div>
+              <p>₹325.00</p>
+                            
+            </div>
+            <div class="col-4">
+               <a href="White%20Shoes%20Men.html"><img src="Images/shoes%20white.jpg">
+              <h4>White Shoes Men</h4></a>
+              <div class="rating">
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star-o"></i>
+              </div>
+              <p>₹325.00</p>
+                            
+            </div>
+            <div class="col-4">
+               <a href="White%20T-Shirt%20Men.html"><img src="Images/tshirt2.jpg">
+              <h4>White T-Shirt Men</h4></a>
+              <div class="rating">
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star-o"></i>
+              </div>
+              <p>₹325.00</p>
+                            
+            </div>
+            <div class="col-4">
+               <a href="TWC%20Mens%20Watch.html"><img src="Images/watch2.jpg">
+              <h4>TWC Mens Watch</h4></a>
+              <div class="rating">
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star-o"></i>
+              </div>
+              <p>₹325.00</p>
+                            
+            </div>
+            
+        </div>
+        <div class="row">
+          <div class="col-4">
+               <a href="Women%20Jeans%20Blue.html"><img src="Images/trousers1.jpg">
+              <h4>Women Jeans Blue</h4></a>
+              <div class="rating">
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star-o"></i>
+              </div>
+              <p>₹325.00</p>
+                            
+            </div>
+            <div class="col-4">
+               <a href="Sneakers.html"><img src="Images/shoes1.jpg">
+              <h4>Sneakers</h4></a>
+              <div class="rating">
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star-o"></i>
+              </div>
+              <p>₹325.00</p>
+                            
+            </div>
+            <div class="col-4">
+               <a href="Product-details.html"><img src="Images/tshirt1.jpg">
+              <h4>White T-Shirt Women</h4></a>
+              <div class="rating">
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star-o"></i>
+              </div>
+              <p>₹325.00</p>
+                            
+            </div>
+            <div class="col-4">
+               <a href="Tissot%20Watch%20Men.html"><img src="Images/watch1.jpg">
+              <h4>Tissot Watch Men</h4></a>
+              <div class="rating">
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star-o"></i>
+              </div>
+              <p>₹325.00</p>
+                            
+            </div>
+            
+        </div>
+    </div>  
+  <!-----------offer-------->
+    <div class="offer">
+       <div class="small-container">
+        <div class="row">
+           <div class="col-2">
+              <a href="Exclusive.html"><img src="Images/A9EAC5A0-E476-4E0E-A5DB-3E1A2CF0D505-removebg-preview.png" width="510" height="auto"></a>
+            </div>
+            <div class="col-2">
+              <p>Exclusively Available on Trends</p>
+                <h1>Nike Air Jordan 1 Retro High</h1>
+                <small> The Jordan Mids find middle-ground between the Jordan Low and Air Jordan compressing the retro all-leather design with a variating color scheme.</small>
+                <a href="Exclusive.html" class="btn">Buy Now &#8594;</a>
+            </div>
+           </div>
+        </div>
+    </div>
+    
+<!---------- brands ---------->    
+  <div class="brands">
+    <div class="small-container">
+      <div class="row">
+        <div class="clo-5">
+          <img src="Images/park.png" width="140" height="auto">
+          </div>
+          <div class="clo-5">
+          <img src="Images/gucci-logo-png-7598.png" width="140" height="auto">
+          </div>
+          <div class="clo-5">
+          <img src="Images/IMG_2775.jpg" width="140" height="auto">
+          </div>
+          <div class="clo-5">
+          <img src="Images/nike-logo-13%202.jpg" width="140" height="auto">
+          </div>
+          <div class="clo-5">
+          <img src="Images/michael-jordan-logo-2654%202.jpg" width="140" height="auto">
+          </div>
+        </div>
+      </div>
+    </div>  
+ <!---------- footer ---------->
+   <div class="footer">
+    <div class="container">
+       <div class="row">
+        <div class="footer-col-1">
+           <h3>Download Our App</h3>
+            <p>Download App for Android and ios mobile phone.</p>
+            <div class="app-logo">
+            <img src="Images/play-store.png">
+                <img src="Images/app-store.png">
+            </div>
+           </div>
+           <div class="footer-col-2">
+           <img src="Images/LogoMa.png">
+            <p>Description</p>
+           </div>
+           <div class="footer-col-3">
+           <h3>Usefull Links</h3>
+            <ul>
+               <li>Coupons</li>
+                <li>Blog Post</li>
+                <li>Return Policy</li>
+                <li>Join Affiliate</li>
+               </ul>
+           </div>
+           <div class="footer-col-4">
+           <h3>Follow Us</h3>
+            <ul>
+               <li>Facebook</li>
+                <li>Twitter</li>
+                <li>Instagram</li>
+                <li>YouTube</li>
+               </ul>
+           </div>
+        </div>
+        <hr>
+        <p class="Copyright">Copyright 2021 - Developar Loka</p>
+       </div>
+    </div> 
+ <!-------js for toggel menu---------->
+    <script>
+          var MenuItems = document.getElementById("MenuItems");
+        
+        MenuItems.style.maxHeight = "0px";
+        
+        function menutoggle(){
+            if(MenuItems.style.maxHeight == "0px")
+                {
+                   MenuItems.style.maxHeight = "200px";
+                }
+            else{
+                MenuItems.style.maxHeight = "0px";
+                }
+       }
+    </script>
+    
+    
+</body>
+</html> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
